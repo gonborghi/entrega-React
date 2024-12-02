@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-around;
+    background-color: rgb(43, 43, 169);
+    color: red;
+    align-items: center;
+
+    .imgNav{
+        width: 55px;
+        height: 60px;
+    }
+    .categories{
+        display: flex;
+        list-style: none;
+        li{
+            font-size: 23px;
+            font-family:Arial, Helvetica, sans-serif;
+            padding: 0 10px
+        }
+    }
+    .cartwidget{
+        display: flex;
+    }
+    .cartNumber{
+        margin-left: 5px;
+        font-size: 20px;
+    }
+}
+
