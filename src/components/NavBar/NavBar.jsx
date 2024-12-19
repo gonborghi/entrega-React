@@ -1,19 +1,23 @@
 import "./navbar.css"
 import CarWidget from "./CarWidget"
+import { NavLink } from "react-router-dom"
 
 const NavBar = () => {
 
     return(
-        <nav className='navbar'>
+    <nav className='navbar'>
+      
       <div className='brand'>
-        <img className="imgNav" src="./././public/logosanlo.png" alt="" />
-        <p></p>
+        <a href="/">
+         <img className="imgNav" src="/public/logosanlo.png" alt="Logo" />
+        </a>
       </div>
 
+
       <ul className="categories">
-        <li>Pelotas</li>
-        <li>Botines</li>
-        <li>Camisetas</li>
+        <NavLink to= "/category/pelotas" className={({isActive}) => isActive ? "category-active" : "category"}>Pelotas</NavLink>
+        <NavLink to= "/category/botines" className={({isActive}) => isActive ? "category-active" : "category"}> Botines</NavLink>
+        <NavLink to = "/category/camisetas" className={({isActive}) => isActive ? "category-active" : "category"}>Camisetas</NavLink>
       </ul>
 
         <CarWidget/>

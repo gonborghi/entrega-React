@@ -20,6 +20,16 @@
             padding: 0 10px
         }
     }
+
+    .category{
+        color: rgb(200, 70, 70);
+        text-decoration: none;
+    }
+
+    .category-active{
+        color: red;
+    }
+
     .cartwidget{
         display: flex;
     }
@@ -27,5 +37,12 @@
         margin-left: 5px;
         font-size: 20px;
     }
+
+    .imgNav{
+        width: 55px;
+        height: 60px;
+    }
+
+
 }
 
