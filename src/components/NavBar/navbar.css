@@ -36,6 +36,8 @@
     .cartNumber{
         margin-left: 5px;
         font-size: 20px;
+        text-decoration: none;
+        color: red;
     }
 
     .imgNav{

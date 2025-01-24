@@ -1,64 +1,63 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
-    margin: 0;
-    padding: 0;
-    color: #333;
-  }
-  
-  div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-  }
-  
-  .item {
-    background-color: #ffffff;
-    border: 1px solid #dcdcdc;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    margin: 15px;
-    width: 220px;
-    text-align: center;
-    padding: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-decoration: none;
-    color: rgb(0, 0, 94);
-  }
-  
-  .item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
-  }
-  
-  .item img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    
+/* item.css */
 
-  }
-  
-  .item p {
-    margin: 10px 0;
-    font-size: 16px;
-  }
-  
-  .item p:last-child {
-    font-weight: bold;
-    color: #d64f4f;
-  }
-  
-  @media (max-width: 768px) {
-    div {
-      padding: 10px;
-    }
-  
-    .item {
-      width: 100%;
-      margin-bottom: 20px;
-    }
-  }
-  
+.item {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.img-item {
+  width: 100%;
+  height: auto;
+  max-width: 150px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.img-item:hover {
+  transform: scale(1.1);
+}
+
+.text-item {
+  font-size: 1rem;
+  color: #333;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.text-item.price {
+  font-size: 1.1rem;
+  color: #D91C29;
+  margin: 10px 0;
+}
+
+.button-detail {
+  background-color: #1C3D6C;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.button-detail:hover {
+  background-color: #D91C29;
+}

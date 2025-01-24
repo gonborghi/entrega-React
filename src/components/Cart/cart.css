@@ -1,0 +1,121 @@
+/* cart.css */
+
+.cart {
+    background-color: #F7F7F7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title-cart {
+    color: #1C3D6C; 
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .item-cart {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #D91C29;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .img-item-cart {
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .text-item-cart {
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .delete-item-cart {
+    background-color: transparent;
+    border: none;
+    color: #D91C29;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  
+  .delete-item-cart:hover {
+    color: #1C3D6C;
+  }
+  
+  .empty-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .title-empty-cart {
+    font-size: 2rem;
+    color: #D91C29;
+    margin-bottom: 20px;
+  }
+  
+  .button-home-empty-cart {
+    background-color: #1C3D6C;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-home-empty-cart:hover {
+    background-color: #D91C29;
+  }
+  
+  .info-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .text-info-cart {
+    font-size: 1.2rem;
+    color: #1C3D6C;
+    margin-bottom: 20px;
+  }
+  
+  .button-to-cart {
+    background-color: #D91C29;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-to-cart:hover {
+    background-color: #1C3D6C;
+  }
+  
+  .button-delete-cart {
+    background-color: #D91C29;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-delete-cart:hover {
+    background-color: #1C3D6C;
+  }
+  

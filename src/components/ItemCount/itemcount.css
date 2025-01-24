@@ -1,0 +1,54 @@
+/* itemcount.css */
+
+.item-count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #D91C29;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .controls-count {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .controls-count button {
+    background-color: #D91C29;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .controls-count button:hover {
+    background-color: #1C3D6C;
+  }
+  
+  .controls-count p {
+    font-size: 1.25rem;
+    margin: 0 10px;
+  }
+  
+  .button-add-count {
+    background-color: #1C3D6C;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-add-count:hover {
+    background-color: #D91C29;
+  }
+  

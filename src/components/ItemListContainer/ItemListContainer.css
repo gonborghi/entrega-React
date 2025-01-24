@@ -1,35 +1,15 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f8ff;
-  color: #333;
-  margin: 0;
-  padding: 0;
-
-}
+/* itemlistcontainer.css */
 
 .itemlistcontainer {
-  display: inline-block;
-  padding: 20px;
-  background-color: #ffffff;
+  background-color: #F7F7F7;
+  padding: 30px;
   border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .itemlistcontainer h1 {
-  text-align: center;
-  color: #2a5d84;
-  font-size: 36px;
+  color: #1C3D6C;
+  font-size: 2rem;
   margin-bottom: 20px;
 }
-
-
-  
-  .itemlistcontainer p:last-child {
-    font-size: 16px;
-    color: #d64f4f;
-    font-weight: bold;
-  }
-  
-
-
-  
